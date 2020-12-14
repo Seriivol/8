@@ -1,0 +1,210 @@
+body {
+	font-family: 'Rubik', sans-serif;
+	font-size: 20px;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: calc(1rem + 2vw);
+	line-height: 1.2;
+}
+
+#section_1 .section-1-w-1 {
+	max-width: 80%;
+	margin: 0 auto;
+	margin-top: 10%;
+}
+
+#section_1 .section-1-w-1 p {
+	font-size: calc(.3rem + 1vw);
+}
+
+#section_1 .col-6:first-child, .col-6:last-child {
+	background: #f1f1f2;
+}
+
+#section_1 .w-2 p {
+	font-size: calc(.2rem + 1vw);
+}
+
+#section_1 .w-2 p:first-child {
+	font-weight: bold;
+	font-size: 22px;
+}
+
+
+/*      SECTIOn_2     */
+
+#section_2 p {
+	text-align: center;
+}
+
+#section_2 p:first-child {
+	margin-top: 5%;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+#section_2 .gifts .card .card-body {
+	background: #f1f1f2;
+}
+
+#section_2 .gifts .card .card-title {
+	font-weight: 600;
+}
+
+#section_2 .gifts .card .card-text {
+	text-align: left;
+	margin-top: 30%;
+}
+
+#section_2 .gifts .card .card-text a{
+	color: #000;
+	text-decoration: none;
+	transition: .3s;
+}
+
+#section_2 .gifts .card .card-text a:hover{
+	color: #f7941e;
+}
+
+#section_2 .gifts .card .card-text i{
+	font-size: 13px;
+}
+
+#section_2 .gifts .card {
+	border: none;
+	transition: .3s;
+}
+
+#section_2 .gifts .card:hover {
+	box-shadow: 15px 15px 44px -2px rgba(117,115,117,1);
+}
+
+/*			section_3			*/
+
+#section_3 {
+	margin-top: 137px;
+	width: 100%;
+	background-color: #f7941e;
+}
+
+#section_3 .col-lg-6:first-child {
+	text-align: center;
+}
+
+#section_3 .col-lg-6 p {
+	font-size: calc(1rem + 1vw);
+}
+
+#section_3 .col-lg-6 p:first-child {
+	font-weight: bold;
+}
+
+#section_3 .col-lg-6 button {
+	position: relative;
+	top: 50%;
+	transform: translate(0, -50%);
+	text-transform: uppercase;
+	font-size: calc(.2rem + 1vw);
+}
+
+/*			SECTION_4			*/
+
+#section_4 .container {
+	background: #231f20;
+}
+
+#section_4 .row:first-child {
+	text-align: center;
+	background: #fff;
+}
+
+#section_4 .row p:first-child {
+	font-weight: bold;
+	font-size: calc(.4rem + 1vw);
+}
+
+#section_4 .our-bg {
+	color: #fff;
+}
+
+#section_4 .col-lg-5 {
+	text-align: right;
+	padding: 0;
+	display: flex;
+}
+#section_4 .link:hover {
+	color:006600;
+}
+
+
+#section_4 p {
+	text-align: center;
+}
+
+#section_4 p:first-child {
+	margin-top: 5%;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+#section_4 .gifts .card .card-body {
+	background: #f1f1f2;
+}
+
+#section_4 .gifts .card .card-title {
+	font-weight: 666;
+}
+
+#section_4 .gifts .card .card-text {
+	text-align: left;
+	margin-top: 30%;
+}
+
+#section_4 .gifts .card .card-text a{
+	color: #000;
+	text-decoration: none;
+	transition: .3s;
+}
+
+#section_4 .gifts .card .card-text a:hover{
+	color: red;
+}
+
+#section_4 .gifts .card .card-text i{
+	font-size: 13px;
+}
+
+#section_4 .gifts .card {
+	border:inset;
+	transition: .3s;
+}
+
+#section_4 .gifts .card:hover {
+	box-shadow: 15px 15px 44px -2px rgba(117,115,117,1);
+}
+
+.adapt {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, 100px);
+    grid-template-rows: repeat(2, 100px);
+}
+
+
+/*			fotter			*/
+.copyright{
+	text-align:center;
+	color:#999;
+	font-size:2.4vw;
+}
+#footer{background-color:black;}
+.social{	
+	margin-top:69px;	
+}
+.social-img{
+	width:4%;
+	height:0.7%;
+	margin:0.7%;
+}
